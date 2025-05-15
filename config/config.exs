@@ -8,7 +8,6 @@
 import Config
 
 config :dsonic_chat,
-  ecto_repos: [DsonicChat.Repo],
   generators: [timestamp_type: :utc_datetime]
 
 # Configures the endpoint

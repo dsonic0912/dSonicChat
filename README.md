@@ -14,7 +14,6 @@ A lightweight, real-time chat application built with Phoenix LiveView and Elixir
 ### Prerequisites
 
 - Elixir 1.14 or later
-- PostgreSQL
 - Node.js (for asset compilation)
 
 ### Installation
@@ -22,11 +21,11 @@ A lightweight, real-time chat application built with Phoenix LiveView and Elixir
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/yourusername/dsonic_chat.git
+   git clone https://github.com/dsonic0912/dSonicChat
    cd dsonic_chat
    ```
 
-2. Install dependencies and setup the database
+2. Install dependencies
 
    ```bash
    mix setup

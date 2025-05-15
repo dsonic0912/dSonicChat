@@ -9,7 +9,6 @@ defmodule DsonicChat.Application do
   def start(_type, _args) do
     children = [
       DsonicChatWeb.Telemetry,
-      DsonicChat.Repo,
       {DNSCluster, query: Application.get_env(:dsonic_chat, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: DsonicChat.PubSub},
       # Start the Finch HTTP client for sending emails
